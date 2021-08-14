@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="XX" value=""/>
+  <entry key="eulapro" value="7"/>
+  <entry key="license1" value=""/>
+  <entry key="suite.AUTO_UPDATE_CHANNEL_1c80" value="Stable§Stable"/>
+  <entry key="suite.feedbackReportingEnabled" value="false"/>
+  <entry key="suite.installationId" value="xddp"/>
+  <entry key="suite.tempDirPendingDeletion0" value="**empty**"/>
+  <entry key="workingdirectory" value="/root/Downloads"/>
+  <entry key="workingdirectory-4" value="/root/Downloads"/>
+</map>
