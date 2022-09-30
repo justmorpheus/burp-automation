@@ -48,7 +48,7 @@ class custom_lib_2:
     #Start burp-rest-api service and start Burp in headless mode.
     def start_headless_burp(self):
         subprocess.Popen(
-            "./burp-rest-api.sh --port=8081 --headless.mode=true --unpause-spider-and-scanner  --project-file=burp-ext/temp-project.burp --user-config-file=burp-ext/user-option.json -burp.ext=burp-ext/activeScan++.py --burp.ext=burp-ext/Asset_Discover.py --burp.ext=burp-ext/Burp-MissingScannerChecks.py --burp.ext=burp-ext/FransLinkfinder.py",shell=True, stdin=subprocess.PIPE, stderr=subprocess.STDOUT, stdout=subprocess.PIPE,close_fds=True)
+            "./burp-rest-api.sh --port=8081 --headless.mode=true --unpause-spider-and-scanner  --project-file=burp-ext/temp-project.burp --user-config-file=burp-ext/user-option.json --burp.ext=burp-ext/activeScan++.py --burp.ext=burp-ext/Asset_Discover.py --burp.ext=burp-ext/Burp-MissingScannerChecks.py --burp.ext=burp-ext/FransLinkfinder.py",shell=True, stdin=subprocess.PIPE, stderr=subprocess.STDOUT, stdout=subprocess.PIPE,close_fds=True)
         time.sleep(50)
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = sock.connect_ex(('127.0.0.1', 8081))
